@@ -16,6 +16,7 @@ kubectl apply -f k8s/manifests/backend-deployment.yaml;
 
 echo "Step 2.3: Create Ingress controller";
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml;
+kubectl -n ingress-nginx get deploy; # Check ingress controller
 
 echo "Step 2.4: Create Service for Deployment";
 kubectl apply -f k8s/manifests/backend-service.yaml;
