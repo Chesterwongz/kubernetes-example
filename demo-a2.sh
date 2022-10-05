@@ -23,6 +23,7 @@ kubectl get svc; # Check service
 
 echo "Step 2.5: Create Ingress object";
 kubectl apply -f k8s/manifests/backend-ingress.yaml; # Usually needs to be run twice
+kubectl apply -f k8s/manifests/backend-ingress.yaml; # Usually needs to be run twice
 kubectl get ingress; # Check ingress
 
 echo "Step 2.6: Check Deployment"
