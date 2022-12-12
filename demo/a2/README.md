@@ -1,4 +1,4 @@
-# OTOT Task A2 Guide
+# A2 Guide
 
 This guide will guide you to provision a local Kubernetes cluster and run some Nginx containers in it.
 
