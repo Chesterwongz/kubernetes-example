@@ -1,4 +1,4 @@
-# OTOT Task 3
+# A3 Guide
 
 From Task 2, you should have the NodeJS server you built earlier on running in a k8s cluster that is accessible from your local environment.
 
